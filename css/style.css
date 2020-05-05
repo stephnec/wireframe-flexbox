@@ -9,6 +9,10 @@
     color: #fff;
 }
 
+.logo h2{
+    color: #FF5733;
+}
+
 .menu{
     display: flex;
 }
@@ -26,7 +30,7 @@
 }
 
 .menu li a:hover{
-    color: #b63a53;
+    color: #FF5733;
     letter-spacing: 1px;
     transition: 0.5s;
 }
@@ -65,10 +69,12 @@
 }
 
 .news{
-    height: 23%;
+    height: 21.5%;
+    width: 90%;
     background-color: #E8E8E8;
     border-radius: 5px;
-    margin: 10px;
+    margin: 5%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 
 .destaque{
@@ -84,6 +90,7 @@
     border-radius: 5px;
     width: 32%;
     height: 260px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 
 .videos{
@@ -99,7 +106,8 @@
     background-color: #E8E8E8;
     border-radius: 5px;
     width: 45%;
-    height: 130px;;
+    height: 130px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 
 .produtos{
@@ -132,6 +140,24 @@
 }
 
 .redes-sociais:hover{
-    color: #fff;
     transition: 0.7s;
+}
+
+.fa-instagram:hover{
+    color: #c32aa3;
+}
+.fa-twitter:hover{
+    color: #1DA1F2;
+}
+.fa-youtube:hover{
+    color: #FF0000;
+}
+.fa-linkedin:hover{
+    color: #0077B5;
+}
+.fa-pinterest:hover{
+    color: #E60023;
+}
+.fa-medium:hover{
+    color: #66cdaa;
 }
